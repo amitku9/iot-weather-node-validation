@@ -1,0 +1,11 @@
+{
+ "T_static_model": {
+  "slope": 1.1424739339949277,
+  "intercept": -3.1966195781637765
+ },
+ "RH_static_model": {
+  "slope": 1.1161674050149355,
+  "intercept": -17.2343061133612
+ },
+ "test_below_train_min_pct": 21.614583333333336
+}

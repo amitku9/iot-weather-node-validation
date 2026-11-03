@@ -1,0 +1,11 @@
+variable,strategy,MAE,RMSE,bias,dMAE_pct,reduction_CI_low,reduction_CI_high
+T,None,1.309,1.61,0.804,0.0,,
+T,Offset (Sep-Nov),1.503,1.801,1.139,14.809,-0.221,-0.166
+T,"Linear, static",0.863,1.24,0.073,-34.036,0.355,0.529
+T,"Linear, rolling 14-day",0.897,1.278,0.111,-31.463,0.308,0.513
+T,Random forest,1.327,1.932,0.882,1.41,-0.193,0.146
+RH,None,6.451,8.123,1.841,0.0,,
+RH,Offset (Sep-Nov),8.871,10.753,-7.283,37.53,-3.27,-1.564
+RH,"Linear, static",8.659,10.49,-7.769,34.235,-2.995,-1.391
+RH,"Linear, rolling 14-day",5.072,6.421,-0.118,-21.37,0.86,1.894
+RH,Random forest,6.055,7.619,-4.173,-6.133,-0.286,1.074
